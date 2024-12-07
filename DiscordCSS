@@ -1,0 +1,109 @@
+:root {
+  /* COLORS */
+  --themeColor1: #789079; /* Theme's color 1 */
+  --themeColor2: #5db164; /* Theme's color 2 */
+
+  /* CUSTOM FONT */
+  --customFont: 'Open sans', sans-serif; /* Custom font, change the name in 'font name here', you must import the font first */
+
+  /* HOME BUTTON */
+  --homeImage: url('https://i.imgur.com/oQT2QhZ.jpeg');/* Home button image, must be a direct link | You can also set it to a gradient, google "css gradient"*/
+  --homeImageSize: cover;/* To cover the button, set to "cover". You can also set it to "100% 100%" but the image will be stretched. Set to "contain" to see the entire image */
+
+  /* BACKGROUND */
+  --backgroundColor: #273027; /* Background color 6887681f */
+  --backgroundImage: url('https://i.imgur.com/oQT2QhZ.jpeg'); /* Backround image, must be a direct link | You can also set it to a gradient, google "css gradient"*/
+  --backgroundPosition: center; /* Image position | center, left, right, bottom, top */
+  --backgroundSize: cover; /* To cover the entire app, set to "cover". You can also set it to "100% 100%" but the image will be stretched. Set to "contain" to see the entire image */
+  --backgroundRepeat: no-repeat; /* if you want the image to repeat | Google "css background repeat" */
+  --backgroundBlur: 11px; /* Set to 0 to remove blur | Set to 10px for average blur */
+  --backgroundOpacity: .68; /* 0 is transparent */
+
+  /* CODE BLOCKS */
+  --backgroundCode: rgba(124, 190, 146, 0.356);
+  --backgroundName: rgba(68, 83, 73, 0.5);
+
+  --textcolorbackgoundwolf: #274638bb;
+  --linecolorbackgoundwolf: #a1b9af;
+}
+
+  /* HOME BUTTON */
+
+.grid_b0068a{
+  background-color: #47705c44;
+}
+
+/*.scrollableContainer_bdf0de,
+.markup_f8f345,  
+.channelTextArea_a7d72e,
+.scrollableContainer_d0696b {
+    background-color: var(--textcolorbackgoundwolf);
+}*/
+.scrollableContainer_bdf0de {
+  backdrop-filter: blur(15px);
+  background-color: var(--textcolorbackgoundwolf);
+  
+  border: 2px dashed var(--linecolorbackgoundwolf); /* 1px - толщина, solid - стиль, #000 - цвет */
+}
+
+.theme-dark .bar_c7a159,
+.theme-dark .markDash_c7a159 {
+    background: #2d4f36
+}
+
+.barFill_c7a159 {
+  background: #49944c
+}
+/* .wrapper_d880dc */ 
+.root_dd069c {
+  background-color: #283b28a8;
+}
+.wrapper_d880dc {
+  backdrop-filter: blur(15px);
+  
+  border: 4px dashed var(--linecolorbackgoundwolf); /* 1px - толщина, solid - стиль, #000 - цвет */
+}
+
+
+ /*
+.theme-dark .container_b2ca13,
+.member_a31c43,
+.wrapper_adcaac,
+.container_b2ca13  {
+    background-color: #47705c44;
+}*/
+
+/* 
+.message_d5deea {
+  background-color: #63c07f4f;
+}*/
+
+.cozy_f9f2ca .messageContent_f9f2ca:not(:empty):not(.repliedTextContent_f9f2ca):not(.threadMessageAccessoryContent_f9f2ca) {
+  backdrop-filter: blur(15px);
+  display: inline-block;
+  max-width: 100%;
+  margin: 0;
+  background: var(--textcolorbackgoundwolf);
+  padding: 5px;
+  border-radius: 7px;
+ /* backdrop-filter: blur(25px)*/
+
+  border: 2px dashed var(--linecolorbackgoundwolf); /* 1px - толщина, solid - стиль, #000 - цвет */
+
+  
+}
+
+
+.operations_baf0d6 {
+  backdrop-filter: blur(15px);
+  display: inline-block;
+  margin: 8px 0 0 0;
+  background: var(--textcolorbackgoundwolf);
+  padding: 5px;
+  border-radius: 7px;
+ /* backdrop-filter: blur(25px)*/
+
+  border: 2px dashed var(--linecolorbackgoundwolf); /* 1px - толщина, solid - стиль, #000 - цвет */
+}
+
+.wordmark_a934d8 svg {display: none;}
